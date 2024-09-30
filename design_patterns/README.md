@@ -1,5 +1,7 @@
 # The Strategy Design Pattern
 
+<img width="1110" alt="Screenshot 2024-09-29 at 10 11 25 PM" src="https://github.com/user-attachments/assets/00f10cce-fab6-45cf-8952-246cd61e7b96">
+
 First problem in building delibrate ML pipelines is understanding what data structures to use for data ingestion, analysis, and validation. These processes require heavy filtering, grouping, and manipulation of the data and writing error prone-code can be consequential. 
 
 The second step is feeding the data into algorithms that offer insight. This stage also requires modular functional programs, that have strategy built into design. Programs can be written for one particular type of algorithm, but lacks the choice aspect of picking which model to use for a particular use case.
